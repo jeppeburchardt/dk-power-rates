@@ -1,5 +1,5 @@
 {
-  "domain": "dk-power",
+  "domain": "dk-power-rates",
   "name": "DK Power Price",
   "version": "1.0.0",
   "config_flow": true,
