@@ -2,9 +2,12 @@
   "domain": "dk-power-rates",
   "name": "DK Power Price",
   "version": "1.0.0",
+  "codeowners": ["@jeppeburchardt"],
   "config_flow": true,
   "integration_type": "service",
   "iot_class": "cloud_polling",
   "quality_scale": "bronze",
-  "requirements": ["aiohttp"]
+  "requirements": ["aiohttp"],
+  "issue_tracker": "https://github.com/jeppeburchardt/dk-power-rates/issues",
+  "documentation": "https://github.com/jeppeburchardt/dk-power-rates"
 }
