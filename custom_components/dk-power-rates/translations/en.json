@@ -1,0 +1,24 @@
+{
+    "config": {
+        "error": {
+            "cannot_connect": "Cannot connect to NRGi API.",
+            "unknown": "Unknown error occurred."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "region": "Region (e.g., DK1, DK2)"
+                },
+                "description": "Set up your region for power price data.",
+                "title": "Configure NRGi Power Price Sensor"
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "current_rate": {
+                "name": "Current Power Price"
+            }
+        }
+    }
+}
